@@ -30,7 +30,7 @@ app.get("/", (_, res) =>
 
 httpServer.listen(port, host, () => {
   logger.info(`🚀 Server version ${version} is listening 🚀`);
-  logger.info(`http://${host}:${port}`);
+  logger.info(`https://${host}:${port}`);
 
   socket({ io });
 });

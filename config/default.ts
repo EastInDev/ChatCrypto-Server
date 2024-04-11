@@ -1,5 +1,5 @@
 export default {
   corsOrigin: "https://chat-crypto.vercel.app",
-  // port: 4000,
-  host: "localhost",
+  port: 443,
+  host: "chat-crypto.vercel.app",
 };
