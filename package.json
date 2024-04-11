@@ -4,8 +4,9 @@
   "description": "stock-chat server",
   "main": "index.js",
   "scripts": {
-    "start": "node src/app.ts",
     "dev": "nodemon --config nodemon.json src/app.ts",
+    "build": "tsc",
+    "start": "node src/app.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
